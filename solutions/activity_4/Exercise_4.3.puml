@@ -3,6 +3,7 @@
 
 Bird <|-- Pigeon
 Bird <|-- Penguin
+Bird <|-- Parrot
 
 abstract class Bird {
 +String name
@@ -19,6 +20,10 @@ class Pigeon{
 class Penguin{
 +void speak()
 +void fly()
+}
+
+class Parrot{
++void speak()
 }
 
 

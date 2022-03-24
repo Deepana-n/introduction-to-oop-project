@@ -13,6 +13,8 @@ public abstract class Bird {
         Penguin pingu = new Penguin("Pingu", "Black & White");
         pingu.speak();
         pingu.fly();
+        Parrot ratty  = new Parrot("Ratty", "Red");
+        ratty.speak();
     }
 
     public Bird(String name, String color) {

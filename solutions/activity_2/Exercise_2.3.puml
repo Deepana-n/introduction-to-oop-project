@@ -1,12 +1,16 @@
 @startuml
 'https://plantuml.com/class-diagram
 
+
 class Bird {
-    +String name
-    +String colour
-    +void speak()
-    +void fly()
++String name
++String colour
++void speak()
++void fly()
 }
+
+
+
 
 
 @enduml

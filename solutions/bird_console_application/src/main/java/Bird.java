@@ -8,6 +8,11 @@ public class Bird {
         Bird myBird = new Bird("Tweety", "Yellow");
         myBird.speak();
         myBird.fly();
+        Pigeon pippa = new Pigeon("Pippa", "Grey");
+        pippa.speak();
+        pippa.fly();
+        pippa.eatPizza();
+        pippa.sleep();
     }
 
     public Bird(String name, String color) {
